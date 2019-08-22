@@ -7,11 +7,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Document(indexName="javatechie",type="customer",shards=2)
+@Document(indexName="example",type="character", shards=2)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Customer {
+public class Character {
 	
 	@Id
 	private String id;
